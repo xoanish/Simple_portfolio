@@ -1,29 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <script differ src="./index.js"></script>
     <title>Portfolio</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- ========================================= HEADER ============================================= -->
 
-<header>
+    <header class="header">
+      <a href="#" class="logo">Logo</a>
 
-</header>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <a><li class="navbar-link">Home</li></a>
+          <a><li class="navbar-link">About</li></a>
+          <a><li class="navbar-link">Gallery</li></a>
+          <a><li class="navbar-link btn contact-btn">Contact Me</li></a>
+        </ul>
+      </nav>
 
-
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+    <div class="hr-line"><hr class="horizon" /></div>
 
     <!-- ========================================== HERO =============================================== -->
 
     <main>
-        <section class="container">
+      <section class="section section-hero">
+        <div class="container grid grid-two-column">
+          <!-- ======   LEFT SIDE   ===========-->
 
-        </section>
+          <div class="left-side">
+            <h1 class="primary-heading">Hi This is Anish Patel</h1>
+            <p class="para">
+              Dedicated and detail-oriented recent graduate with a Bachelor's
+              degree in Computer Application and a strong passion for creating
+              visually appealing and user-friendly websites. Proficient in HTML,
+              CSS, and JavaScript, with a solid foundation in responsive design
+              principles Skilled in handling a wide range of customer needs.
+              Organized and Motivated employee, eager to apply time management
+              and Communication skills in various Environment.
+            </p>
+            <br />
+            <a href="#" class="btn hire-btn">Hire Me</a>
+          </div>
+
+          <!-- =======   RIGHT SIDE   =========== -->
+
+          <div class="right-side">
+              <img
+                src="./pics/Hero-sec-image2.jpg"
+                class="hero-img"
+                alt="hero image"
+              />
+          </div>
+        </div>
+      </section>
     </main>
-    
-</body>
+
+    <!-- ===================================ICON Script================================================= -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
